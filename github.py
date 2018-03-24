@@ -471,6 +471,3 @@ class github:
         else:
             return [item['name'] for item in json.loads(r.text)]
     #TODO: watchers
-g = github('yehan2002','cb36b850a65c6e24f236e7d4eacb51499fc82be1','pygithubtest2')
-print g.eventsIssue()
-print g.staredRepos()
